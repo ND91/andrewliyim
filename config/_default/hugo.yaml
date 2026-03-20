@@ -1,0 +1,43 @@
+baseURL: 'https://YOUR-GITHUB-USERNAME.github.io/'  # ← CHANGE THIS
+languageCode: en-us
+title: Andrew Y.F. Li Yim
+
+# Hugo Modules - pulls in HugoBlox academic theme
+module:
+  imports:
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-core
+    - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-seo
+
+defaultContentLanguage: en
+hasCJKLanguage: false
+defaultContentLanguageInSubdir: false
+removePathAccents: true
+
+pagination:
+  pagerSize: 10
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true  # Allows raw HTML in markdown (needed for some blocks)
+  highlight:
+    lineNos: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - WebAppManifest
+    - headers
+    - redirects
+  section:
+    - HTML
+    - RSS
+
+imaging:
+  resampleFilter: Lanczos
+  quality: 80
+  anchor: smart
+
+enableGitInfo: true

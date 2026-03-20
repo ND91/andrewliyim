@@ -1,0 +1,107 @@
+# .github/workflows/deploy.yml
+#
+# Builds the Hugo site and deploys it to GitHub Pages.
+# Triggered by:
+#   • Every push to `main` (including commits from the update-publications bot)
+#   • Manual "workflow_dispatch" trigger
+#   • Daily rebuild at 03:00 UTC (catches any external config drift)
+#
+# Prerequisites (one-time setup):
+#   1. In your repo → Settings → Pages → Source: "GitHub Actions"
+#   2. No additional secrets needed for this workflow.
+
+name: Deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 3 * * *'   # Daily rebuild at 03:00 UTC
+  workflow_dispatch:       # Manual trigger from Actions tab
+
+# Allow only one deployment at a time; cancel in-progress if a newer run starts
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+# Required for GitHub Pages deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  # ── JOB 1: Build ──────────────────────────────────────────────────────────
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: "0.128.2"
+
+    steps:
+      - name: Install Hugo (extended)
+        run: |
+          wget -q -O /tmp/hugo.deb \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i /tmp/hugo.deb
+
+      - name: Install Dart Sass (needed by some HugoBlox blocks)
+        run: sudo snap install dart-sass
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive   # Fetch theme submodules if any
+          fetch-depth: 0          # Full history for .GitInfo / lastmod
+
+      - name: Set up Go (required for Hugo Modules)
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+
+      - name: Cache Hugo Modules
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/hugo_cache
+            /root/.cache/hugo_cache
+          key: ${{ runner.os }}-hugo-${{ hashFiles('go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-
+
+      - name: Configure GitHub Pages base URL
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Install Node dependencies (if package.json present)
+        run: '[ -f package-lock.json ] && npm ci || true'
+
+      - name: Build with Hugo
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+          # Needed to avoid "too many open files" on large sites
+          HUGO_NUMWORKERMULTIPLIER: 2
+        run: |
+          hugo \
+            --gc \
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  # ── JOB 2: Deploy ─────────────────────────────────────────────────────────
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
