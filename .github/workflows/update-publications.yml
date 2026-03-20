@@ -30,6 +30,10 @@ on:
 permissions:
   contents: write          # Needed to push commits
 
+# Opt into Node.js 24 — avoids Node 20 deprecation warnings on all actions
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
