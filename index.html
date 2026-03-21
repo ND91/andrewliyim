@@ -338,8 +338,8 @@
       padding: 0.2rem 0.55rem;
       border-radius: 100px;
     }
-    .badge-lead { background: var(--teal-lt); color: var(--teal); }
-    .badge-senior { background: #FFF3E0; color: #B45309; }
+    .badge-lead     { background: var(--teal-lt); color: var(--teal); }
+    .badge-senior   { background: #FFF3E0; color: #B45309; }
     .badge-featured { background: #F3F0FF; color: #5B21B6; }
     .badge-preprint { background: #FEF9C3; color: #92400E; }
     .pub-count {
@@ -519,7 +519,7 @@
           Google Scholar
         </a>
         <a href="https://www.researchgate.net/profile/Andrew-Li-Yim" class="hero-link" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.586 0c-.818 0-1.508.19-2.073.565-.563.377-.97.936-1.213 1.68a12.601 12.601 0 00-.35 2.143c-.038.89-.051 1.669-.051 2.214 0 .184.003.5.01.968.007.465.011.777.011.932 0 2.535-.444 4.511-1.332 5.928-.888 1.415-2.107 2.124-3.657 2.124-1.438 0-2.59-.47-3.455-1.408-.865-.939-1.299-2.196-1.299-3.773a9.52 9.52 0 01.348-2.661 5.96 5.96 0 011.014-2.059 4.41 4.41 0 011.52-1.303 4.068 4.068 0 011.907-.46c1.21 0 2.2.352 2.97 1.057.768.705 1.153 1.635 1.153 2.79 0 1.062-.303 1.946-.908 2.655-.606.71-1.367 1.065-2.284 1.065-.656 0-1.186-.186-1.591-.557-.404-.371-.607-.87-.607-1.496 0-.568.176-1.044.528-1.43.353-.387.795-.58 1.324-.58.424 0 .766.117 1.026.35.26.233.391.536.391.908 0 .355-.11.639-.33.851-.218.212-.511.318-.877.318-.212 0-.39-.04-.532-.119v.017c0 .374.095.671.285.892.19.222.447.332.77.332.505 0 .916-.182 1.233-.546.317-.364.475-.845.475-1.441 0-.735-.232-1.33-.696-1.782-.464-.453-1.083-.68-1.856-.68-.919 0-1.678.357-2.277 1.073-.598.715-.898 1.64-.898 2.773 0 1.219.378 2.195 1.133 2.928.756.733 1.744 1.099 2.963 1.099 1.497 0 2.69-.56 3.577-1.68.888-1.12 1.332-2.63 1.332-4.532V3.5a9.1 9.1 0 01.217-2.028C17.45.604 17.986 0 19.586 0z"/></svg>
+          <svg viewBox="0 0 448 512" fill="currentColor"><path d="M0 32v448h448V32H0zm262.2 334.4c-6.6 3-33.2 6-50-14.2-9.2-10.6-25.3-33.3-42.2-63.6-8.9 0-14.7 0-21.4-.6v46.4c0 23.5 6 21.2 25.8 23.9v8.1c-6.9-.3-23.1-.8-35.6-.8-13.1 0-26.1.6-33.6.8v-8.1c15.5-2.9 22-1.3 22-23.9V225c0-22.6-6.4-21-22-23.9V193c25.8 1 53.1-.6 70.9-.6 31.7 0 55.9 14.4 55.9 45.6 0 21.1-16.7 42.2-39.2 47.5 13.6 24.2 30 45.6 42.2 58.9 7.2 7.8 17.2 14.7 27.2 14.7v7.3zm22.9-135c-23.3 0-32.2-15.7-32.2-32.2V167c0-12.2 8.8-30.4 34-30.4s30.4 17.9 30.4 17.9l-10.7 7.2s-5.5-12.5-19.7-12.5c-7.9 0-19.7 7.3-19.7 19.7v26.8c0 13.4 6.6 23.3 17.9 23.3 14.1 0 21.5-10.9 21.5-26.8h-17.9v-10.7h30.4c0 20.5 4.7 49.9-34 49.9zm-116.5 44.7c-9.4 0-13.6-.3-20-.8v-69.7c6.4-.6 15-.6 22.5-.6 23.3 0 37.2 12.2 37.2 34.5 0 21.9-15 36.6-39.7 36.6z"/></svg>
           ResearchGate
         </a>
         <a href="https://github.com/ND91" class="hero-link" target="_blank" rel="noopener">
@@ -925,27 +925,29 @@
           ? `<a ${doi_link} target="_blank" rel="noopener">${escHtml(p.title)}</a>`
           : escHtml(p.title);
 
-        const isSenior = p.senior === true;
-        const isLead = p.lead === true;
+        const isSenior   = p.senior === true;
+        const isLead     = p.lead === true;
         const isFeatured = p.featured;
         const isPreprint = /biorxiv|medrxiv|research square|preprint/i.test(p.journal);
 
         let badges = '';
         if (isFeatured && currentView === 'all') badges += '<span class="badge badge-featured">Selected</span>';
         if (isPreprint) badges += '<span class="badge badge-preprint">Preprint</span>';
-        if (isLead) badges += '<span class="badge badge-lead">Lead</span>';
-        if (isSenior) badges += '<span class="badge badge-senior">Senior</span>';
+        if (isLead)     badges += '<span class="badge badge-lead">Lead</span>';
+        if (isSenior)   badges += '<span class="badge badge-senior">Senior</span>';
 
-        // Journal · Publisher · Month Year
+        // Journal · Publisher · Month Year  (no volume, no pages)
         const month = p.month ? `${p.month} ${year}` : `${year}`;
         const venueParts = [p.journal];
         if (p.publisher && p.publisher !== p.journal) venueParts.push(p.publisher);
         venueParts.push(month);
         const venue = venueParts.join(' · ');
 
-        // Highlight my name
+        // Bold Andrew's name, strip * markers
         const authorsHtml = escHtml(p.authors)
-          .replace(/Li Yim, A\.Y\.F\./g, '<u>Li Yim, A.Y.F.</u>');
+          .replace(/A\.Y\.F\. Li Yim\*\*/g, '<strong>A.Y.F. Li Yim</strong>')
+          .replace(/A\.Y\.F\. Li Yim\*/g,  '<strong>A.Y.F. Li Yim</strong>')
+          .replace(/A\.Y\.F\. Li Yim/g,    '<strong>A.Y.F. Li Yim</strong>');
 
         // DOI link, or ISBN for books/theses
         const identifier = p.doi
