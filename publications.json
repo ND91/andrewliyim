@@ -2,17 +2,19 @@
   {
     "id": "Fung2026",
     "year": 2026,
-    "featured": false,
+    "featured": true,
     "lead": false,
     "senior": true,
     "title": "Mucosal B cell expansion and maturation contribute to colitis pathogenesis",
-    "authors": "Fung, I.C.N.; Koelink, P.J.; Mulders, L.G.M.; Admiraal, I.; Verseijden, C.; Verhoeff, J.; Wildenberg, M.E.; Luo, Y.; D’Haens, G.R.; A.Y.F. Li Yim**; de Jonge, W.J.",
+    "authors": "Fung, I.C.N.; Koelink, P.J.; Mulders, L.G.M.; Admiraal, I.; Verseijden, C.; Verhoeff, J.; Wildenberg, M.E.; Luo, Y.; D’Haens, G.R.; Li Yim, A.Y.F.; de Jonge, W.J.",
     "journal": "Inflammatory Bowel Diseases",
+    "publisher": "Oxford University Press",
     "volume": "",
     "number": "",
     "pages": "",
     "month": "February",
-    "doi": "10.1093/ibd/izaf275"
+    "doi": "10.1093/ibd/izaf275",
+    "isbn": ""
   },
   {
     "id": "Lauffer2026",
@@ -21,13 +23,15 @@
     "lead": false,
     "senior": false,
     "title": "Multi-omics investigation of thyroid development and dysfunction in Down syndrome",
-    "authors": "Lauffer, P.; Zwaveling-Soonawala, N.; A.Y.F. Li Yim; van der Laan, L.; van Zelderen-Bhola, S.; Venema, A.M.; Mul, A.N.; Bugiani, M.; Siteur-van Rijnstra, E.; Gunst, Q.D.; van den Hoff, M.J.B.; de Bakker, B.S.; Boelen, A.; Henneman, P.; van Trotsenburg, A.S.P.",
+    "authors": "Lauffer, P.; Zwaveling-Soonawala, N.; Li Yim, A.Y.F.; van der Laan, L.; van Zelderen-Bhola, S.; Venema, A.M.; Mul, A.N.; Bugiani, M.; Siteur-van Rijnstra, E.; Gunst, Q.D.; van den Hoff, M.J.B.; de Bakker, B.S.; Boelen, A.; Henneman, P.; van Trotsenburg, A.S.P.",
     "journal": "Human Molecular Genetics",
+    "publisher": "Oxford University Press",
     "volume": "35",
     "number": "4",
     "pages": "ddag005",
     "month": "February",
-    "doi": "10.1093/hmg/ddag005"
+    "doi": "10.1093/hmg/ddag005",
+    "isbn": ""
   },
   {
     "id": "Joustra2025",
@@ -36,13 +40,15 @@
     "lead": true,
     "senior": false,
     "title": "Development and validation of peripheral blood DNA methylation signatures to predict response to biological therapy in adults with Crohn’s disease (EPIC-CD): an epigenome-wide association study",
-    "authors": "Joustra, V.W.; A.Y.F. Li Yim*; Henneman, P.; Hageman, I.; de Waard, T.; Levin, E.; Noble, A.J.; Chapman, T.P.; Mol, F.; van Zon, S.; Lee, D.; McGregor, C.G.C.; Hulshoff, M.S.; Satsangi, J.J.; Jonge, W.J.; D'Haens, G.R.; EPIC-CD Consortium",
+    "authors": "Joustra, V.W.; Li Yim, A.Y.F.; Henneman, P.; Hageman, I.; de Waard, T.; Levin, E.; Noble, A.J.; Chapman, T.P.; Mol, F.; van Zon, S.; Lee, D.; McGregor, C.G.C.; Hulshoff, M.S.; Satsangi, J.J.; Jonge, W.J.; D'Haens, G.R.; EPIC-CD Consortium",
     "journal": "The Lancet Gastroenterology and Hepatology",
+    "publisher": "Lancet",
     "volume": "10",
     "number": "",
     "pages": "818-830",
     "month": "September",
-    "doi": "10.1016/S2468-1253(25)00102-5"
+    "doi": "10.1016/S2468-1253(25)00102-5",
+    "isbn": ""
   },
   {
     "id": "Koopman2025",
@@ -51,13 +57,15 @@
     "lead": false,
     "senior": false,
     "title": "Integrated multi-omics of feces, plasma and urine can describe and differentiate pediatric active Crohn’s Disease from remission",
-    "authors": "Koopman, N.; Jaspers, Y.; van Leeuwen, P.; Chronas, K.; A.Y.F. Li Yim; Diederen, K.; te Velde, A.A.; Roseboom, W.; Kindermann, A.; Benninga, M.; Kramer, G.; de Jonge, W.J.; Brul, S.; Levin, E.; Kemp, S.; Seppen, J.",
+    "authors": "Koopman, N.; Jaspers, Y.; van Leeuwen, P.; Chronas, K.; Li Yim, A.Y.F.; Diederen, K.; te Velde, A.A.; Roseboom, W.; Kindermann, A.; Benninga, M.; Kramer, G.; de Jonge, W.J.; Brul, S.; Levin, E.; Kemp, S.; Seppen, J.",
     "journal": "Communications Medicine",
+    "publisher": "Springer Nature",
     "volume": "",
     "number": "",
     "pages": "",
     "month": "June",
-    "doi": "10.1038/s43856-025-00984-7"
+    "doi": "10.1038/s43856-025-00984-7",
+    "isbn": ""
   },
   {
     "id": "LiYim2025a",
@@ -66,13 +74,15 @@
     "lead": true,
     "senior": false,
     "title": "An exploratory single-cell analysis of peripheral blood mononuclear cells from vedolizumab-treated Crohn's disease patients identifies response-associated differences among the plasmacytoid dendritic cells and classical monocytes",
-    "authors": "A.Y.F. Li Yim*; Hageman, I.L.; Joustra, V.; Elfiky, A.; Ghiboub, M.; Levin, E.; Verhoeff, J.; Verseijden, C.; Admiraal-van den Berg, I.; Krijger, Manon; Wildenberg, Manon E.; Mannens, M.M.A.M.; Jakobs, M.E.; Kenter, S.B.; Adams, A.T.; Satsangi, J.; D'Haens, G.R.; de Jonge, W.J.; Henneman, P",
+    "authors": "Li Yim, A.Y.F.; Hageman, I.L.; Joustra, V.; Elfiky, A.; Ghiboub, M.; Levin, E.; Verhoeff, J.; Verseijden, C.; Admiraal-van den Berg, I.; Krijger, Manon; Wildenberg, Manon E.; Mannens, M.M.A.M.; Jakobs, M.E.; Kenter, S.B.; Adams, A.T.; Satsangi, J.; D'Haens, G.R.; de Jonge, W.J.; Henneman, P",
     "journal": "Frontiers in Immunology",
+    "publisher": "Frontiers Media S.A.",
     "volume": "16",
     "number": "",
     "pages": "",
     "month": "August",
-    "doi": "10.3389/fimmu.2025.1551017"
+    "doi": "10.3389/fimmu.2025.1551017",
+    "isbn": ""
   },
   {
     "id": "LiYim2025b",
@@ -81,13 +91,15 @@
     "lead": true,
     "senior": false,
     "title": "Peripheral blood DNA methylation signatures to predict treatment response in Crohn's disease - Authors' reply",
-    "authors": "A.Y.F. Li Yim*; Levin, E.; de Jonge, W.J.; Henneman, P.; Satsangi, J.J.; D'Haens, G.R.",
+    "authors": "Li Yim, A.Y.F.; Levin, E.; de Jonge, W.J.; Henneman, P.; Satsangi, J.J.; D'Haens, G.R.",
     "journal": "The Lancet Gastroenterology and Hepatology",
+    "publisher": "",
     "volume": "10",
     "number": "11",
     "pages": "973-974",
     "month": "November",
-    "doi": "10.1016/S2468-1253(25)00298-5"
+    "doi": "10.1016/S2468-1253(25)00298-5",
+    "isbn": ""
   },
   {
     "id": "Lopata2025a",
@@ -96,13 +108,15 @@
     "lead": false,
     "senior": false,
     "title": "Association of ulcerative colitis with atopic dermatitis: identification of shared and unique mechanisms by construction and computational analysis of disease maps",
-    "authors": "Lopata, O.; Acencio, M.L.; Wang, X.; Hemedan, A.; Chao, M.J.; Jelinsky, S.A.; Tran, F.; Rosenstiel, P.; A.Y.F. Li Yim; Schneider, R.; Satagopam, V.P.; Ostaszewski, M.",
+    "authors": "Lopata, O.; Acencio, M.L.; Wang, X.; Hemedan, A.; Chao, M.J.; Jelinsky, S.A.; Tran, F.; Rosenstiel, P.; Li Yim, A.Y.F.; Schneider, R.; Satagopam, V.P.; Ostaszewski, M.",
     "journal": "bioRxiv",
+    "publisher": "Cold Spring Harbor Laboratory",
     "volume": "",
     "number": "",
     "pages": "",
     "month": "April",
-    "doi": "10.1101/2025.04.23.650149"
+    "doi": "10.1101/2025.04.23.650149",
+    "isbn": ""
   },
   {
     "id": "Lopata2025b",
@@ -111,13 +125,15 @@
     "lead": false,
     "senior": false,
     "title": "Identification of shared and unique mechanisms of atopic dermatitis and ulcerative colitis by construction and computational analysis of disease maps",
-    "authors": "Lopata, O.; Acencio, M.L.; Wang, X.; Hemedan, A.A.; Chao, M.J.; Jelinsky, S.A.; Tran, F.; Rosenstiel, P.; A.Y.F. Li Yim; Schneider, R.; Satagopam, V.; Ostaszewski, M.",
+    "authors": "Lopata, O.; Acencio, M.L.; Wang, X.; Hemedan, A.A.; Chao, M.J.; Jelinsky, S.A.; Tran, F.; Rosenstiel, P.; Li Yim, A.Y.F.; Schneider, R.; Satagopam, V.; Ostaszewski, M.",
     "journal": "Computational and Structural Biotechnology Journal",
+    "publisher": "",
     "volume": "",
     "number": "",
     "pages": "",
     "month": "September",
-    "doi": "10.1016/j.csbj.2025.09.008"
+    "doi": "10.1016/j.csbj.2025.09.008",
+    "isbn": ""
   },
   {
     "id": "Metselaar2025",
@@ -126,13 +142,15 @@
     "lead": false,
     "senior": true,
     "title": "mRNA expression of NLRP3 and IL1B in inflammatory bowel diseases: a systematic review and meta-analysis",
-    "authors": "Metselaar, P.I.; Schilder, R.C.H.; Kraneveld, A.D.; te Velde, A.A.; A.Y.F. Li Yim**",
+    "authors": "Metselaar, P.I.; Schilder, R.C.H.; Kraneveld, A.D.; te Velde, A.A.; Li Yim, A.Y.F.",
     "journal": "BMC Gastroenterology",
+    "publisher": "Springer Nature Link",
     "volume": "",
     "number": "",
     "pages": "",
     "month": "December",
-    "doi": "10.1186/s12876-025-04566-8"
+    "doi": "10.1186/s12876-025-04566-8",
+    "isbn": ""
   },
   {
     "id": "Nikolakis2025",
@@ -141,13 +159,15 @@
     "lead": false,
     "senior": false,
     "title": "Drug repurposing approach for the discovery of therapeutic agents for Crohn’s disease-associated intestinal fibrosis",
-    "authors": "Nikolakis, D.; A.Y.F. Li Yim; Overberg, K.L.; Ghiboub, M.; Wildenberg, M.E.; de Jonge, W.J.; Lartey, D.; Rieder, F.; D’Haens, G.R.; van de Sande, M.G.H.; Löwenberg, M.",
+    "authors": "Nikolakis, D.; Li Yim, A.Y.F.; Overberg, K.L.; Ghiboub, M.; Wildenberg, M.E.; de Jonge, W.J.; Lartey, D.; Rieder, F.; D’Haens, G.R.; van de Sande, M.G.H.; Löwenberg, M.",
     "journal": "Journal of Crohn's and Colitis",
+    "publisher": "Oxford University Press",
     "volume": "",
     "number": "",
     "pages": "",
     "month": "September",
-    "doi": "10.1093/ecco-jcc/jjaf137"
+    "doi": "10.1093/ecco-jcc/jjaf137",
+    "isbn": ""
   },
   {
     "id": "Saris2025",
@@ -156,13 +176,15 @@
     "lead": true,
     "senior": false,
     "title": "Peritoneal resident macrophages constitute an immunosuppressive environment in peritoneal metastasized colorectal cancer",
-    "authors": "Saris, J.; A.Y.F. Li Yim*; Bootsma, S; Lenos, K.J.; Franco Fernandez, R.J.C.; Khan, H.N.; Verhoeff, J.; Poel, D.; Mrzlikar N.M.; Xiong, L.; Schijven, M.P.; van Grieken N.C.T.; Kranenburg O.; Wildenberg M.E.; Logiantara, A.; Jongerius, C.; Garcia Vallejo, J.J.; Gisbertz, S.S.; Derks, S.; Tuynman, J.B.; D'Haens, G.R.; Vermeulen, L.; Grootjans, J.",
+    "authors": "Saris, J.; Li Yim, A.Y.F.; Bootsma, S; Lenos, K.J.; Franco Fernandez, R.J.C.; Khan, H.N.; Verhoeff, J.; Poel, D.; Mrzlikar N.M.; Xiong, L.; Schijven, M.P.; van Grieken N.C.T.; Kranenburg O.; Wildenberg M.E.; Logiantara, A.; Jongerius, C.; Garcia Vallejo, J.J.; Gisbertz, S.S.; Derks, S.; Tuynman, J.B.; D'Haens, G.R.; Vermeulen, L.; Grootjans, J.",
     "journal": "Nature Communications",
+    "publisher": "Nature Portfolio",
     "volume": "3669",
     "number": "16",
     "pages": "",
     "month": "April",
-    "doi": "10.1038/s41467-025-58999-6"
+    "doi": "10.1038/s41467-025-58999-6",
+    "isbn": ""
   },
   {
     "id": "Sengul2025",
@@ -171,13 +193,15 @@
     "lead": false,
     "senior": false,
     "title": "Layer-specific molecular signatures of colon anastomotic healing and leakage in mice",
-    "authors": "Sengul, H.; Bantavi, V.; Gloeck, L; A.Y.F. Li Yim; Leven, P.; Efferz, P.; Schneiker, M.; Lysson, M.; de Jonge, W.J.; Wehner, S.",
+    "authors": "Sengul, H.; Bantavi, V.; Gloeck, L; Li Yim, A.Y.F.; Leven, P.; Efferz, P.; Schneiker, M.; Lysson, M.; de Jonge, W.J.; Wehner, S.",
     "journal": "Molecular Medicine",
+    "publisher": "BioMed Central",
     "volume": "124",
     "number": "31",
     "pages": "",
     "month": "April",
-    "doi": "10.1186/s10020-025-01167-9"
+    "doi": "10.1186/s10020-025-01167-9",
+    "isbn": ""
   },
   {
     "id": "Elfiky2024",
@@ -186,13 +210,15 @@
     "lead": false,
     "senior": false,
     "title": "Carboxylesterase 1 directs the metabolic profile of dendritic cells to a reduced inflammatory phenotype",
-    "authors": "Elfiky, A.M.I.; Canñizares, J.L.; Li, J.; A.Y.F. Li Yim; Verhoeven, A.J; Ghiboub, M.; de Jonge, W.J.",
+    "authors": "Elfiky, A.M.I.; Canñizares, J.L.; Li, J.; Li Yim, A.Y.F.; Verhoeven, A.J; Ghiboub, M.; de Jonge, W.J.",
     "journal": "Journal of Leukocyte Biology",
+    "publisher": "Oxford University Press",
     "volume": "116",
     "number": "5",
     "pages": "1094-1108",
     "month": "June",
-    "doi": "10.1093/jleuko/qiae137"
+    "doi": "10.1093/jleuko/qiae137",
+    "isbn": ""
   },
   {
     "id": "Joustra2024",
@@ -201,13 +227,15 @@
     "lead": true,
     "senior": false,
     "title": "Peripheral blood DNA methylation signatures predict response to vedolizumab and ustekinumab in adult patients with Crohns disease: The EPIC-CD study",
-    "authors": "Joustra, V.W.; A.Y.F Li Yim*; Henneman, P.; Hageman, I.; de Waard, T.; Levin, E.; Noble, A.J.; Chapman, T.P.; Mol, F.; van Zon, S.; Lee, D.; McGregor, C.G.C.; Adams, A.T.; Satsangi, J.J.; de Jonge, W.J.; D'Haens, G.R.; EPIC-CD Consortium",
+    "authors": "Joustra, V.W.; A.Y.F Li Yim; Henneman, P.; Hageman, I.; de Waard, T.; Levin, E.; Noble, A.J.; Chapman, T.P.; Mol, F.; van Zon, S.; Lee, D.; McGregor, C.G.C.; Adams, A.T.; Satsangi, J.J.; de Jonge, W.J.; D'Haens, G.R.; EPIC-CD Consortium",
     "journal": "medRxiv",
+    "publisher": "Cold Spring Harbor Laboratory Press",
     "volume": "",
     "number": "",
     "pages": "",
     "month": "July",
-    "doi": "10.1101/2024.07.25.24310949"
+    "doi": "10.1101/2024.07.25.24310949",
+    "isbn": ""
   },
   {
     "id": "Hageman2023",
@@ -216,13 +244,15 @@
     "lead": false,
     "senior": false,
     "title": "Novel DNA methylome biomarkers associated with adalimumab response in rheumatoid arthritis patients",
-    "authors": "Hageman, I.L; Mol, F.; Atiqi, S.; Joustra, V.; Sengul, H.; Henneman, P.; Visman, I.; Hakvoort, T.; Nurmohamed, M; Wolbink, G.; Levin, E.; A.Y.F. Li Yim; D’Haens, G.R.; de Jonge, W.J.",
+    "authors": "Hageman, I.L; Mol, F.; Atiqi, S.; Joustra, V.; Sengul, H.; Henneman, P.; Visman, I.; Hakvoort, T.; Nurmohamed, M; Wolbink, G.; Levin, E.; Li Yim, A.Y.F.; D’Haens, G.R.; de Jonge, W.J.",
     "journal": "Frontiers in Immunology",
+    "publisher": "Frontiers Media S.A.",
     "volume": "14",
     "number": "",
     "pages": "",
     "month": "December",
-    "doi": "10.3389/fimmu.2023.1303231"
+    "doi": "10.3389/fimmu.2023.1303231",
+    "isbn": ""
   },
   {
     "id": "Joustra2023",
@@ -231,13 +261,15 @@
     "lead": true,
     "senior": false,
     "title": "Peripheral blood DNA methylation signatures and response to tofacitinib in moderate-to-severe ulcerative colitis",
-    "authors": "Joustra, V.; A.Y.F. Li Yim*; van Gennep, S.; Hageman, I.L.; de Waard, T.; Levin, E; Lauffer, P.; de Jonge, W.J.; Henneman, P.; Löwenberg, M.; D'Haens G.R.",
+    "authors": "Joustra, V.; Li Yim, A.Y.F.; van Gennep, S.; Hageman, I.L.; de Waard, T.; Levin, E; Lauffer, P.; de Jonge, W.J.; Henneman, P.; Löwenberg, M.; D'Haens G.R.",
     "journal": "Journal of Crohn's and Colitis",
+    "publisher": "Oxford University Press",
     "volume": "18",
     "number": "8",
     "pages": "",
     "month": "August",
-    "doi": "10.1093/ecco-jcc/jjad129"
+    "doi": "10.1093/ecco-jcc/jjad129",
+    "isbn": ""
   },
   {
     "id": "Krzyzewska2023",
@@ -246,13 +278,15 @@
     "lead": false,
     "senior": false,
     "title": "Expression quantitative trait methylation analysis identifies whole blood molecular footprint in Fetal Alcohol Spectrum Disorder (FASD)",
-    "authors": "Krzyzewska, I.M.; Lauffer, P.; Mul, A.N.; van der Laan, L.; A.Y.F. Li Yim; Cobben, J.M.; Niklinski, J.; Chomczyk, M.A.; Smigiel, R.; Mannens, M.M.A.M.; Henneman, P.",
+    "authors": "Krzyzewska, I.M.; Lauffer, P.; Mul, A.N.; van der Laan, L.; Li Yim, A.Y.F.; Cobben, J.M.; Niklinski, J.; Chomczyk, M.A.; Smigiel, R.; Mannens, M.M.A.M.; Henneman, P.",
     "journal": "International Journal of Molecular Sciences",
+    "publisher": "Multidisciplinary Digital Publishing Institute",
     "volume": "24",
     "number": "7",
     "pages": "",
     "month": "March",
-    "doi": "10.3390/ijms24076601"
+    "doi": "10.3390/ijms24076601",
+    "isbn": ""
   },
   {
     "id": "LiYim2023",
@@ -261,13 +295,15 @@
     "lead": true,
     "senior": false,
     "title": "Single-cell characterization of peripheral blood mononuclear cells from Crohn's disease patients on vedolizumab",
-    "authors": "A.Y.F. Li Yim*; Hageman, I.L.; Joustra, V.; Elfiky, A.; Ghiboub, M.; Levin, E.; Verhoeff, J.; Verseijden, C.; Admiraal-van den Berg, I.; Mannens, M.M.A.M.; Jakobs, M.E.; Kenter, S.B.; Adams, A.T.; Satsangi, J.; D'Haens, G.R.; de Jonge, W.J.; Henneman, P",
+    "authors": "Li Yim, A.Y.F.; Hageman, I.L.; Joustra, V.; Elfiky, A.; Ghiboub, M.; Levin, E.; Verhoeff, J.; Verseijden, C.; Admiraal-van den Berg, I.; Mannens, M.M.A.M.; Jakobs, M.E.; Kenter, S.B.; Adams, A.T.; Satsangi, J.; D'Haens, G.R.; de Jonge, W.J.; Henneman, P",
     "journal": "medRxiv",
+    "publisher": "Cold Spring Harbor Laboratory Press",
     "volume": "",
     "number": "",
     "pages": "",
     "month": "June",
-    "doi": "10.1101/2023.06.23.23291732"
+    "doi": "10.1101/2023.06.23.23291732",
+    "isbn": ""
   },
   {
     "id": "VanHelsdingen2023",
@@ -276,13 +312,15 @@
     "lead": false,
     "senior": false,
     "title": "Histology and transcriptome insights into the early processes of intestinal anastomotic healing: a rat model",
-    "authors": "van Helsdingen, C.P.M.; Wildeboer, A.C.L.; Zafeiropoulou, K.; Jongen, A.C.H.M.; Bosmans, J.W.A.M.; Gallé, C.; Hakvoort, T.B.M.; Gijbels, M.J.J.; de Jonge, W.J.; Bouvy, Nicole D; A.Y.F. Li Yim; Derikx, J.P.M.",
+    "authors": "van Helsdingen, C.P.M.; Wildeboer, A.C.L.; Zafeiropoulou, K.; Jongen, A.C.H.M.; Bosmans, J.W.A.M.; Gallé, C.; Hakvoort, T.B.M.; Gijbels, M.J.J.; de Jonge, W.J.; Bouvy, Nicole D; Li Yim, A.Y.F.; Derikx, J.P.M.",
     "journal": "BJS open",
+    "publisher": "Oxford University Press",
     "volume": "7",
     "number": "5",
     "pages": "",
     "month": "October",
-    "doi": "10.1093/bjsopen/zrad099"
+    "doi": "10.1093/bjsopen/zrad099",
+    "isbn": ""
   },
   {
     "id": "Brinkman2022",
@@ -291,13 +329,15 @@
     "lead": false,
     "senior": false,
     "title": "Electrical stimulation of the splenic nerve bundle ameliorates dextran sulfate sodium-induced colitis in mice",
-    "authors": "Brinkman, D.J.; Simon, T.; ten Hove, A.S.; Zafeiropoulou, K.; Welting, O.; van Hamersveld, P.H.P.; Willemze, R.A.; A.Y.F. Li Yim; Verseijden, C.; Hakvoort, T.B.M.; Luyer, M.D.; Vervoordeldonk, M.J.; Blancou, P.; de Jonge, W.J.",
+    "authors": "Brinkman, D.J.; Simon, T.; ten Hove, A.S.; Zafeiropoulou, K.; Welting, O.; van Hamersveld, P.H.P.; Willemze, R.A.; Li Yim, A.Y.F.; Verseijden, C.; Hakvoort, T.B.M.; Luyer, M.D.; Vervoordeldonk, M.J.; Blancou, P.; de Jonge, W.J.",
     "journal": "Journal of Neuroinflammation",
+    "publisher": "BioMed Central",
     "volume": "19",
     "number": "1",
     "pages": "1–14",
     "month": "December",
-    "doi": "10.1186/S12974-022-02504-Z"
+    "doi": "10.1186/S12974-022-02504-Z",
+    "isbn": ""
   },
   {
     "id": "Elfiky2022",
@@ -306,13 +346,15 @@
     "lead": false,
     "senior": false,
     "title": "A BET Protein inhibitor targeting mononuclear myeloid cells affects specific inflammatory mediators and pathways in Crohn’s disease",
-    "authors": "Elfiky, A.M.I.; Hageman, I.L.; Becker, M.A.J.; Verhoeff, J.; A.Y.F. Li Yim; Joustra, V.W.; Mulders, L.; Fung, I.C.; Rioja, I.; Prinjha, R.K.; Smithers, N.N.; Furze, R.C.; Mander, P.K.; Bell, M.J.; Buskens, C.J.; D’Haens, G.R.; Wildenberg, M.E.; de Jonge, W.J.",
+    "authors": "Elfiky, A.M.I.; Hageman, I.L.; Becker, M.A.J.; Verhoeff, J.; Li Yim, A.Y.F.; Joustra, V.W.; Mulders, L.; Fung, I.C.; Rioja, I.; Prinjha, R.K.; Smithers, N.N.; Furze, R.C.; Mander, P.K.; Bell, M.J.; Buskens, C.J.; D’Haens, G.R.; Wildenberg, M.E.; de Jonge, W.J.",
     "journal": "Cells",
+    "publisher": "Multidisciplinary Digital Publishing Institute",
     "volume": "11",
     "number": "",
     "pages": "",
     "month": "September",
-    "doi": "10.3390/cells11182846"
+    "doi": "10.3390/cells11182846",
+    "isbn": ""
   },
   {
     "id": "Ghiboub2022",
@@ -321,13 +363,15 @@
     "lead": false,
     "senior": false,
     "title": "Modulation of macrophage inflammatory function through selective inhibition of the epigenetic reader protein SP140",
-    "authors": "Ghiboub, M.; Koster, J.; Craggs, P.D.; A.Y.F. Li Yim; Shillings, A.; Hutchinson, S.; Bingham, R.P.; Gatfield, K.; Hageman, I.L.; Yao, G.; O'Keefe, H.P.; Coffin, A.; Patel, A.; Sloan, L.A.; Mitchell, D.J.; Hayhow, T.G.; Lunven, L.; Watson, R.J.; Blunt, C.E.; Harrison, L.A.; Bruton, G.; Kumar, U.; Hamer, N.; Spaull, J.R.; Zwijnenburg, D..A; Welting, O.; Hakvoort, T.B.M.; te Velde, A.A.; Van Limbergen, J.; Henneman, P.; Prinjha, R.K.; de Winther, M.P.J.; Harker, N.R.; Tough, D.F.; de Jonge, W.J.",
+    "authors": "Ghiboub, M.; Koster, J.; Craggs, P.D.; Li Yim, A.Y.F.; Shillings, A.; Hutchinson, S.; Bingham, R.P.; Gatfield, K.; Hageman, I.L.; Yao, G.; O'Keefe, H.P.; Coffin, A.; Patel, A.; Sloan, L.A.; Mitchell, D.J.; Hayhow, T.G.; Lunven, L.; Watson, R.J.; Blunt, C.E.; Harrison, L.A.; Bruton, G.; Kumar, U.; Hamer, N.; Spaull, J.R.; Zwijnenburg, D..A; Welting, O.; Hakvoort, T.B.M.; te Velde, A.A.; Van Limbergen, J.; Henneman, P.; Prinjha, R.K.; de Winther, M.P.J.; Harker, N.R.; Tough, D.F.; de Jonge, W.J.",
     "journal": "BMC Biology",
+    "publisher": "BioMed Central",
     "volume": "20",
     "number": "1",
     "pages": "182",
     "month": "August",
-    "doi": "10.1186/s12915-022-01380-6"
+    "doi": "10.1186/s12915-022-01380-6",
+    "isbn": ""
   },
   {
     "id": "Henneman2022",
@@ -336,28 +380,32 @@
     "lead": false,
     "senior": false,
     "title": "Prenatal NeuN+ neurons of Down syndrome display aberrant integrative DNA methylation and gene expression profiles",
-    "authors": "Henneman, P.; Mul, A.N.; A.Y.F. Li Yim; Krzyzewska, I.M.; Alders, M.; Adelia A.; Mizee, M.R.; Mannens, M.M.A.M.",
+    "authors": "Henneman, P.; Mul, A.N.; Li Yim, A.Y.F.; Krzyzewska, I.M.; Alders, M.; Adelia A.; Mizee, M.R.; Mannens, M.M.A.M.",
     "journal": "Epigenomics",
+    "publisher": "Taylor & Francis",
     "volume": "14",
     "number": "",
     "pages": "375-390",
     "month": "April",
-    "doi": "10.2217/epi-2021-0523"
+    "doi": "10.2217/epi-2021-0523",
+    "isbn": ""
   },
   {
     "id": "Joustra2022a",
     "year": 2022,
-    "featured": false,
+    "featured": true,
     "lead": false,
     "senior": true,
     "title": "Systematic review and meta-analysis of peripheral blood DNA methylation studies in inflammatory bowel disease",
-    "authors": "Joustra, V.W.; Hageman, I.L.; Satsangi, J.; Adams, A; Ventham, N.T.; de Jonge, W.J.; Henneman, P.; D’Haens, G.R.; A.Y.F. Li Yim**",
+    "authors": "Joustra, V.W.; Hageman, I.L.; Satsangi, J.; Adams, A; Ventham, N.T.; de Jonge, W.J.; Henneman, P.; D’Haens, G.R.; Li Yim, A.Y.F.",
     "journal": "Journal of Crohn's and Colitis",
+    "publisher": "Oxford University Press",
     "volume": "",
     "number": "",
     "pages": "",
     "month": "August",
-    "doi": "10.1093/ecco-jcc/jjac119"
+    "doi": "10.1093/ecco-jcc/jjac119",
+    "isbn": ""
   },
   {
     "id": "Joustra2022b",
@@ -366,13 +414,15 @@
     "lead": true,
     "senior": false,
     "title": "Peripheral blood DNA methylation profiles do not predict endoscopic post-operative recurrence in Crohn’s disease patients",
-    "authors": "Joustra, V.W.; A.Y.F. Li Yim*; de Bruyn, J.R.; Duijvestein, M.; Hageman, I.L.; de Jonge, W.J.; Henneman, P.; Wildenberg, M.E.; D’Haens, G.R.",
+    "authors": "Joustra, V.W.; Li Yim, A.Y.F.; de Bruyn, J.R.; Duijvestein, M.; Hageman, I.L.; de Jonge, W.J.; Henneman, P.; Wildenberg, M.E.; D’Haens, G.R.",
     "journal": "International Journal of Molecular Sciences",
+    "publisher": "Multidisciplinary Digital Publishing Institute",
     "volume": "23",
     "number": "",
     "pages": "",
     "month": "September",
-    "doi": "10.3390/ijms231810467"
+    "doi": "10.3390/ijms231810467",
+    "isbn": ""
   },
   {
     "id": "Joustra2022c",
@@ -381,13 +431,15 @@
     "lead": true,
     "senior": false,
     "title": "Long-term temporal stability of peripheral blood DNA methylation profiles in patients with inflammatory bowel disease",
-    "authors": "Joustra, V.W.; A.Y.F. Li Yim*; Hageman, I.L.; Levin, E.; Adams, A.; Satsangi, J.; de Jonge, W.J.; Henneman, P.; D’Haens, G.R.",
+    "authors": "Joustra, V.W.; Li Yim, A.Y.F.; Hageman, I.L.; Levin, E.; Adams, A.; Satsangi, J.; de Jonge, W.J.; Henneman, P.; D’Haens, G.R.",
     "journal": "Cellular and Molecular Gastroenterology and Hepatology",
+    "publisher": "Elsevier",
     "volume": "",
     "number": "",
     "pages": "",
     "month": "December",
-    "doi": "10.1016/j.jcmgh.2022.12.011"
+    "doi": "10.1016/j.jcmgh.2022.12.011",
+    "isbn": ""
   },
   {
     "id": "Krijger2022",
@@ -396,13 +448,15 @@
     "lead": true,
     "senior": false,
     "title": "Epigenetic signatures discriminate patients with primary sclerosing cholangitis and ulcerative colitis from patients with ulcerative colitis",
-    "authors": "de Krijger, M.; Hageman, I.L.; A.Y.F. Li Yim*; Verhoeff, J.; Garcia Vallejo, J.J.; van Hamersveld, P.H.P.; Levin, E.; Hakvoort, T.B.M.; Wildenberg, M.E.; Henneman, P.; Ponsioen, C.Y.; de Jonge, W.J.",
+    "authors": "de Krijger, M.; Hageman, I.L.; Li Yim, A.Y.F.; Verhoeff, J.; Garcia Vallejo, J.J.; van Hamersveld, P.H.P.; Levin, E.; Hakvoort, T.B.M.; Wildenberg, M.E.; Henneman, P.; Ponsioen, C.Y.; de Jonge, W.J.",
     "journal": "Frontiers in Immunology",
+    "publisher": "Frontiers Media S.A.",
     "volume": "13",
     "number": "",
     "pages": "",
     "month": "March",
-    "doi": "10.3389/fimmu.2022.840935"
+    "doi": "10.3389/fimmu.2022.840935",
+    "isbn": ""
   },
   {
     "id": "LiYim2022",
@@ -411,13 +465,15 @@
     "lead": true,
     "senior": false,
     "title": "Towards the identification of Crohn’s disease-associated epigenetic biomarkers in leukocytes. A potential role in personalized diagnostics and treatment.",
-    "authors": "A.Y.F. Li Yim*",
+    "authors": "Li Yim, A.Y.F.",
     "journal": "Universiteit van Amsterdam",
+    "publisher": "Universiteit van Amsterdam",
     "volume": "",
     "number": "",
     "pages": "1-298",
     "month": "June",
-    "doi": ""
+    "doi": "",
+    "isbn": "9789493278073"
   },
   {
     "id": "Elfiky2021",
@@ -426,13 +482,15 @@
     "lead": false,
     "senior": false,
     "title": "Carboxylesterase-1 assisted targeting of HDAC inhibitors to mononuclear myeloid cells in Inflammatory Bowel Disease",
-    "authors": "Elfiky, A.M.I; Ghiboub, M.; A.Y.F. Li Yim; Hageman, I.L.; Verhoeff, J.; de Krijger, M.; van Hamersveld, P.H.P.; Welting, O.; Admiraal, I.; Rahman, S.; Garcia-Vallejo, J.J.; Wildenberg, M.E.; Tomlinson, L.; Gregory, R.; Rioja, I.; Prinjha, R.K.; Furze, R.C.; Lewis, H.D.; Mander, P.K.; Heinsbroek, S.E.M; Bell, M.J.; de Jonge, W.J.",
+    "authors": "Elfiky, A.M.I; Ghiboub, M.; Li Yim, A.Y.F.; Hageman, I.L.; Verhoeff, J.; de Krijger, M.; van Hamersveld, P.H.P.; Welting, O.; Admiraal, I.; Rahman, S.; Garcia-Vallejo, J.J.; Wildenberg, M.E.; Tomlinson, L.; Gregory, R.; Rioja, I.; Prinjha, R.K.; Furze, R.C.; Lewis, H.D.; Mander, P.K.; Heinsbroek, S.E.M; Bell, M.J.; de Jonge, W.J.",
     "journal": "Journal of Crohn's and Colitis",
+    "publisher": "Oxford University Press",
     "volume": "",
     "number": "",
     "pages": "",
     "month": "October",
-    "doi": "10.1093/ECCO-JCC/JJAB176"
+    "doi": "10.1093/ECCO-JCC/JJAB176",
+    "isbn": ""
   },
   {
     "id": "LiYim2021",
@@ -441,13 +499,15 @@
     "lead": true,
     "senior": false,
     "title": "Novel insights into rheumatoid arthritis through characterization of concordant changes in DNA Methylation and gene expression in synovial biopsies of patients with differing numbers of swollen joints",
-    "authors": "A.Y.F. Li Yim*; Ferrero, E.; Maratou, K.; Lewis, H.D.; Royal, G.; Tough, D.F.; Larminie, C.; Mannens, M.M.A.M.; Henneman, P.; de Jonge, W.J.; van de Sande, M.G.H.; Gerlag, D.M.; Prinjha, R.K.; Tak, P.P.",
+    "authors": "Li Yim, A.Y.F.; Ferrero, E.; Maratou, K.; Lewis, H.D.; Royal, G.; Tough, D.F.; Larminie, C.; Mannens, M.M.A.M.; Henneman, P.; de Jonge, W.J.; van de Sande, M.G.H.; Gerlag, D.M.; Prinjha, R.K.; Tak, P.P.",
     "journal": "Frontiers in Immunology",
+    "publisher": "Frontiers Media S.A.",
     "volume": "12",
     "number": "",
     "pages": "",
     "month": "April",
-    "doi": "10.3389/fimmu.2021.651475"
+    "doi": "10.3389/fimmu.2021.651475",
+    "isbn": ""
   },
   {
     "id": "Metselaar2021",
@@ -456,13 +516,15 @@
     "lead": false,
     "senior": false,
     "title": "Recursive ensemble feature selection provides a robust mRNA expression signature for myalgic encephalomyelitis/chronic fatigue syndrome",
-    "authors": "Metselaar, P.I.; Mendoza-Maldonado, L.; A.Y.F. Li Yim; Abarkan, I.; Henneman, P.; te Velde, A.A.; Sch\\\"onhuth, A.; Bosch, J.A.; Kraneveld, A.D.; Lopez-Rincon, A.",
+    "authors": "Metselaar, P.I.; Mendoza-Maldonado, L.; Li Yim, A.Y.F.; Abarkan, I.; Henneman, P.; te Velde, A.A.; Sch\\\"onhuth, A.; Bosch, J.A.; Kraneveld, A.D.; Lopez-Rincon, A.",
     "journal": "Scientific Reports",
+    "publisher": "Nature Portfolio",
     "volume": "11",
     "number": "1",
     "pages": "4541",
     "month": "February",
-    "doi": "10.1038/s41598-021-83660-9"
+    "doi": "10.1038/s41598-021-83660-9",
+    "isbn": ""
   },
   {
     "id": "VanderVossen2021",
@@ -471,13 +533,15 @@
     "lead": false,
     "senior": false,
     "title": "Effects of fecal microbiota transplant on DNA methylation in subjects with metabolic syndrome",
-    "authors": "van der Vossen, E.W.J; Bastos, D.; Stols-Goncalves, D.; de Goffau, M.C.; Davids, M.; Pereira, J.P.B.; A.Y.F. Li Yim; Henneman, P.; Netea, M.G; de Vos, W.M.; de Jonge, W.J.; Groen, A.K.; Nieuwdorp, M.; Levin, E.",
+    "authors": "van der Vossen, E.W.J; Bastos, D.; Stols-Goncalves, D.; de Goffau, M.C.; Davids, M.; Pereira, J.P.B.; Li Yim, A.Y.F.; Henneman, P.; Netea, M.G; de Vos, W.M.; de Jonge, W.J.; Groen, A.K.; Nieuwdorp, M.; Levin, E.",
     "journal": "Gut Microbes",
+    "publisher": "Taylor & Francis",
     "volume": "13",
     "number": "1",
     "pages": "1993513",
     "month": "January",
-    "doi": "10.1080/19490976.2021.1993513"
+    "doi": "10.1080/19490976.2021.1993513",
+    "isbn": ""
   },
   {
     "id": "Ghiboub2020",
@@ -486,13 +550,15 @@
     "lead": true,
     "senior": false,
     "title": "HDAC3 mediates the inflammatory response and LPS tolerance in human monocytes and macrophages",
-    "authors": "Ghiboub, M.; Zhao, J.; A.Y.F. Li Yim*; Schilderink, R.; Verseijden, C.; van Hamersveld, P.H.P.; Duarte, J.M.; Hakvoort, T.B.M.; Admiraal, I.; Harker, N.R.; Tough, D.F.; Henneman, P.; de Winther, M.P.J.; de Jonge, W.J.",
+    "authors": "Ghiboub, M.; Zhao, J.; Li Yim, A.Y.F.; Schilderink, R.; Verseijden, C.; van Hamersveld, P.H.P.; Duarte, J.M.; Hakvoort, T.B.M.; Admiraal, I.; Harker, N.R.; Tough, D.F.; Henneman, P.; de Winther, M.P.J.; de Jonge, W.J.",
     "journal": "Frontiers in Immunology",
+    "publisher": "Frontiers Media S.A.",
     "volume": "11",
     "number": "4",
     "pages": "1",
     "month": "October",
-    "doi": "10.3389/fimmu.2020.550769"
+    "doi": "10.3389/fimmu.2020.550769",
+    "isbn": ""
   },
   {
     "id": "LiYim2020a",
@@ -501,13 +567,15 @@
     "lead": true,
     "senior": false,
     "title": "Whole-genome DNA methylation profiling of CD14+ monocytes reveals disease status and activity differences in Crohn's disease patients",
-    "authors": "A.Y.F. Li Yim*; Duijvis, N.W.; Ghiboub, M.; Sharp, C.; Ferrero, E.; Mannens, M.M.A.M.; D'Haens, G.R.; de Jonge, W.J.; te Velde, A.A.; Henneman, P.",
+    "authors": "Li Yim, A.Y.F.; Duijvis, N.W.; Ghiboub, M.; Sharp, C.; Ferrero, E.; Mannens, M.M.A.M.; D'Haens, G.R.; de Jonge, W.J.; te Velde, A.A.; Henneman, P.",
     "journal": "medRxiv",
+    "publisher": "Cold Spring Harbor Laboratory Press",
     "volume": "",
     "number": "",
     "pages": "",
     "month": "March",
-    "doi": "10.1101/2020.03.09.20033043"
+    "doi": "10.1101/2020.03.09.20033043",
+    "isbn": ""
   },
   {
     "id": "LiYim2020b",
@@ -516,13 +584,15 @@
     "lead": true,
     "senior": false,
     "title": "Whole-genome DNA methylation profiling of CD14+ monocytes reveals disease status and activity differences in Crohn's disease patients",
-    "authors": "A.Y.F. Li Yim*; Duijvis, N.W.; Ghiboub, M.; Sharp, C.; Ferrero, E.; Mannens, M.M.A.M.; D'Haens, G.R.; de Jonge, W.J.; te Velde, A.A.; Henneman, P.",
+    "authors": "Li Yim, A.Y.F.; Duijvis, N.W.; Ghiboub, M.; Sharp, C.; Ferrero, E.; Mannens, M.M.A.M.; D'Haens, G.R.; de Jonge, W.J.; te Velde, A.A.; Henneman, P.",
     "journal": "Journal of Clinical Medicine",
+    "publisher": "Multidisciplinary Digital Publishing Institute",
     "volume": "9",
     "number": "4",
     "pages": "1055",
     "month": "April",
-    "doi": "10.3390/jcm9041055"
+    "doi": "10.3390/jcm9041055",
+    "isbn": ""
   },
   {
     "id": "tenHove2020a",
@@ -531,13 +601,15 @@
     "lead": false,
     "senior": false,
     "title": "The role of nicotinic receptors in SARS-CoV-2 receptor ACE2 expression in intestinal epithelia",
-    "authors": "ten Hove, A.S.; Brinkman, D.J.; A.Y.F. Li Yim; Verseijden, C.; Hakvoort, T.B.M.; Admiraal, I.; Welting, O.; van Hamersveld, P.H.P.; Sinniger, V.; Bonaz, B.; Luyer, M.D.; de Jonge, W.J.",
+    "authors": "ten Hove, A.S.; Brinkman, D.J.; Li Yim, A.Y.F.; Verseijden, C.; Hakvoort, T.B.M.; Admiraal, I.; Welting, O.; van Hamersveld, P.H.P.; Sinniger, V.; Bonaz, B.; Luyer, M.D.; de Jonge, W.J.",
     "journal": "Research Square",
+    "publisher": "Research Square",
     "volume": "",
     "number": "",
     "pages": "",
     "month": "October",
-    "doi": "10.21203/rs.3.rs-46682"
+    "doi": "10.21203/rs.3.rs-46682",
+    "isbn": ""
   },
   {
     "id": "tenHove2020b",
@@ -546,13 +618,15 @@
     "lead": false,
     "senior": false,
     "title": "The role of nicotinic receptors in SARS-CoV-2 receptor ACE2 expression in intestinal epithelia",
-    "authors": "ten Hove, A.S.; Brinkman, D.J.; A.Y.F. Li Yim; Verseijden, C.; Hakvoort, T.B.M.; Admiraal, I.; Welting, O.; van Hamersveld, P.H.P.; Sinniger, V.; Bonaz, B.; Luyer, M.D.; de Jonge, W.J.",
+    "authors": "ten Hove, A.S.; Brinkman, D.J.; Li Yim, A.Y.F.; Verseijden, C.; Hakvoort, T.B.M.; Admiraal, I.; Welting, O.; van Hamersveld, P.H.P.; Sinniger, V.; Bonaz, B.; Luyer, M.D.; de Jonge, W.J.",
     "journal": "Bioelectronic Medicine",
+    "publisher": "BioMed Central",
     "volume": "6",
     "number": "1",
     "pages": "20",
     "month": "December",
-    "doi": "10.1186/s42234-020-00057-1"
+    "doi": "10.1186/s42234-020-00057-1",
+    "isbn": ""
   },
   {
     "id": "Chen2019a",
@@ -561,13 +635,15 @@
     "lead": true,
     "senior": false,
     "title": "Defining tissue-and disease-associated macrophages using a transcriptome-based classification model",
-    "authors": "Chen, H.J.; A.Y.F. Li Yim*; Griffith, G.R; de Jonge, W.J.; Mannens, M.M.A.M.; Ferrero, E.; Henneman, P.; de Winther, M.P.J",
+    "authors": "Chen, H.J.; Li Yim, A.Y.F.; Griffith, G.R; de Jonge, W.J.; Mannens, M.M.A.M.; Ferrero, E.; Henneman, P.; de Winther, M.P.J",
     "journal": "bioRxiv",
+    "publisher": "",
     "volume": "",
     "number": "",
     "pages": "",
     "month": "January",
-    "doi": "10.1101/532986"
+    "doi": "10.1101/532986",
+    "isbn": ""
   },
   {
     "id": "Chen2019b",
@@ -576,13 +652,15 @@
     "lead": true,
     "senior": false,
     "title": "Meta-analysis of in vitro-differentiated macrophages identifies transcriptomic signatures that classify disease macrophages in vivo",
-    "authors": "Chen, H.J.; A.Y.F. Li Yim*; Griffith, G.R.; de Jonge, W.J.; Mannens, M.M.A.M.; Ferrero, E.; Henneman, P.; de Winther, M.P.J.",
+    "authors": "Chen, H.J.; Li Yim, A.Y.F.; Griffith, G.R.; de Jonge, W.J.; Mannens, M.M.A.M.; Ferrero, E.; Henneman, P.; de Winther, M.P.J.",
     "journal": "Frontiers in Immunology",
+    "publisher": "Frontiers Media S.A.",
     "volume": "",
     "number": "",
     "pages": "",
     "month": "December",
-    "doi": "10.3389/fimmu.2019.02887"
+    "doi": "10.3389/fimmu.2019.02887",
+    "isbn": ""
   },
   {
     "id": "LiYim2018",
@@ -591,13 +669,15 @@
     "lead": true,
     "senior": false,
     "title": "A distinct epigenetic profile distinguishes stenotic from non-inflamed fibroblasts in the ileal mucosa of Crohn's disease patients",
-    "authors": "A.Y.F. Li Yim*; de Bruyn, J.R.; Duijvis, N.W.; Sharp, C.; Ferrero, E.; de Jonge, W.J.; Wildenberg, M.E.; Mannens, M.M.A.M.; Buskens, C.J.; D'Haens, G.R.; Henneman, P.; te Velde, A.A.",
+    "authors": "Li Yim, A.Y.F.; de Bruyn, J.R.; Duijvis, N.W.; Sharp, C.; Ferrero, E.; de Jonge, W.J.; Wildenberg, M.E.; Mannens, M.M.A.M.; Buskens, C.J.; D'Haens, G.R.; Henneman, P.; te Velde, A.A.",
     "journal": "PLOS ONE",
+    "publisher": "PLOS",
     "volume": "",
     "number": "",
     "pages": "",
     "month": "December",
-    "doi": "10.1371/journal.pone.0209656"
+    "doi": "10.1371/journal.pone.0209656",
+    "isbn": ""
   },
   {
     "id": "LiYim2016",
@@ -606,12 +686,14 @@
     "lead": true,
     "senior": false,
     "title": "Peripheral blood methylation profiling of female Crohn's disease patients",
-    "authors": "A.Y.F. Li Yim*; Duijvis, N.W.; Zhao, J.; de Jonge, W.J.; D'Haens, G.R.A.M.; Mannens, M.M.A.M.; Mul, A.N.P.M.; te Velde, A.A.; Henneman, P.",
+    "authors": "Li Yim, A.Y.F.; Duijvis, N.W.; Zhao, J.; de Jonge, W.J.; D'Haens, G.R.A.M.; Mannens, M.M.A.M.; Mul, A.N.P.M.; te Velde, A.A.; Henneman, P.",
     "journal": "Clinical Epigenetics",
+    "publisher": "BioMed Central",
     "volume": "8",
     "number": "65",
     "pages": "",
     "month": "June",
-    "doi": "10.1186/s13148-016-0230-5"
+    "doi": "10.1186/s13148-016-0230-5",
+    "isbn": ""
   }
 ]

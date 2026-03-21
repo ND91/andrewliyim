@@ -1,17 +1,24 @@
 # .github/workflows/update-publications.yml
 #
-# Runs the ORCID + CrossRef fetcher every Monday, merges any new works
-# into publications.json, and commits the result — which triggers the
-# deploy workflow automatically.
+# Runs the ORCID/CrossRef fetcher weekly, commits any new publication
+# Markdown files, and pushes them — which triggers the deploy workflow.
 #
-# One-time setup:
-#   Add a repo secret named GH_PAT (Personal Access Token, scope: repo)
-#   so that the commit pushed here triggers the deploy workflow.
-#   Without GH_PAT the commit still happens but won't trigger deploy;
-#   you can then trigger it manually from the Actions tab.
+# Prerequisites (one-time setup — IMPORTANT):
+#   Because GitHub Actions cannot trigger other Actions workflows using the
+#   default GITHUB_TOKEN, you need a Personal Access Token (PAT) so that
+#   the push from this job triggers the deploy workflow.
 #
-#   Repo → Settings → Secrets and variables → Actions → New repository secret
-#   Name: GH_PAT   Value: <your token>
+#   Steps:
+#   1. Go to GitHub → Settings → Developer settings → Personal access tokens
+#      → Tokens (classic) → Generate new token
+#   2. Grant scopes:  repo  (full control of private repositories)
+#   3. Copy the token value.
+#   4. In your repository → Settings → Secrets and variables → Actions
+#      → New repository secret → Name: GH_PAT, Value: <your token>
+#
+#   If you do NOT set GH_PAT, the push will still work but will NOT
+#   trigger the deploy workflow automatically. You can then trigger
+#   deployment manually from the Actions tab.
 
 name: Update Publications
 
@@ -21,8 +28,9 @@ on:
   workflow_dispatch:       # Manual trigger from Actions tab
 
 permissions:
-  contents: write
+  contents: write          # Needed to push commits
 
+# Opt into Node.js 24 — avoids Node 20 deprecation warnings on all actions
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -34,30 +42,46 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          # Use PAT if available so the push triggers the deploy workflow;
+          # fall back gracefully to the default token.
           token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Cache pip packages
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-requests
+          key: ${{ runner.os }}-pip-${{ hashFiles('scripts/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
-      - name: Install dependencies
-        run: pip install requests
+      - name: Install Python dependencies
+        run: pip install -r scripts/requirements.txt
 
       - name: Fetch publications from ORCID + CrossRef
         run: python scripts/fetch_publications.py
 
-      - name: Commit if publications.json changed
+      - name: Check whether any files changed
+        id: diff
         run: |
-          git diff --quiet publications.json && echo "No new publications." && exit 0
+          git diff --quiet content/publication/ \
+            && echo "changed=false" >> "$GITHUB_OUTPUT" \
+            || echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push new publications
+        if: steps.diff.outputs.changed == 'true'
+        run: |
           git config user.name  "Publications Bot"
           git config user.email "actions@github.com"
-          git add publications.json
-          git commit -m "chore: update publications [$(date -u +'%Y-%m-%d')]"
+          git add content/publication/
+          git commit -m "chore: auto-update publications from ORCID [$(date -u +'%Y-%m-%d')]"
           git push
+
+      - name: No new publications found
+        if: steps.diff.outputs.changed == 'false'
+        run: echo "No new publications. Nothing to commit."

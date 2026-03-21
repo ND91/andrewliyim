@@ -322,6 +322,13 @@
       color: var(--ink-faint);
       font-style: italic;
     }
+    .pub-doi {
+      font-size: 0.78rem;
+      color: var(--ink-faint);
+      margin-top: 0.2rem;
+    }
+    .pub-doi a { color: var(--ink-faint); }
+    .pub-doi a:hover { color: var(--teal); }
     .pub-badges { display: flex; flex-direction: column; align-items: flex-end; gap: 0.3rem; flex-shrink: 0; }
     .badge {
       font-size: 0.68rem;
@@ -331,9 +338,10 @@
       padding: 0.2rem 0.55rem;
       border-radius: 100px;
     }
-    .badge-lead   { background: var(--teal-lt); color: var(--teal); }
+    .badge-lead { background: var(--teal-lt); color: var(--teal); }
     .badge-senior { background: #FFF3E0; color: #B45309; }
     .badge-featured { background: #F3F0FF; color: #5B21B6; }
+    .badge-preprint { background: #FEF9C3; color: #92400E; }
     .pub-count {
       font-size: 0.82rem;
       color: var(--ink-faint);
@@ -608,9 +616,7 @@
         </div>
       </div>
     </div>
-    <p style="font-size:0.82rem;color:var(--ink-faint);margin-bottom:1.5rem;">
-      * Lead author &nbsp;&nbsp; ** Senior author
-    </p>
+
     <div class="pub-list" id="pub-list">
       <p style="color:var(--ink-faint);font-size:0.9rem;">Loading publications…</p>
     </div>
@@ -875,9 +881,7 @@
       const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
       allPubs = data.sort((a, b) => {
         if (b.year !== a.year) return b.year - a.year;
-        const ma = MONTHS.indexOf(a.month);
-        const mb = MONTHS.indexOf(b.month);
-        return mb - ma;  // later month first; unknowns (-1) sort to top within year
+        return MONTHS.indexOf(b.month) - MONTHS.indexOf(a.month);
       });
       showPubs('featured');
     })
@@ -922,25 +926,42 @@
           : escHtml(p.title);
 
         const isSenior = p.senior === true;
-        const isLead   = p.lead === true;
+        const isLead = p.lead === true;
         const isFeatured = p.featured;
+        const isPreprint = /biorxiv|medrxiv|research square|preprint/i.test(p.journal);
 
         let badges = '';
         if (isFeatured && currentView === 'all') badges += '<span class="badge badge-featured">Selected</span>';
-        if (isLead)   badges += '<span class="badge badge-lead">Lead</span>';
+        if (isPreprint) badges += '<span class="badge badge-preprint">Preprint</span>';
+        if (isLead) badges += '<span class="badge badge-lead">Lead</span>';
         if (isSenior) badges += '<span class="badge badge-senior">Senior</span>';
 
-        const vol = p.volume ? `, ${p.volume}` : '';
-        const pages = p.pages  ? `:${p.pages}` : '';
-        const month = p.month  ? `${p.month} ${year}` : `${year}`;
-        const venue = [p.journal, vol + pages].filter(Boolean).join('') + ` · ${month}`;
+        // Journal · Publisher · Month Year
+        const month = p.month ? `${p.month} ${year}` : `${year}`;
+        const venueParts = [p.journal];
+        if (p.publisher && p.publisher !== p.journal) venueParts.push(p.publisher);
+        venueParts.push(month);
+        const venue = venueParts.join(' · ');
+
+        // Highlight my name
+        const authorsHtml = escHtml(p.authors)
+          .replace(/Li Yim, A\.Y\.F\./g, '<u>Li Yim, A.Y.F.</u>');
+
+        // DOI link, or ISBN for books/theses
+        const identifier = p.doi
+          ? `<a href="https://doi.org/${p.doi}" target="_blank" rel="noopener">doi:${escHtml(p.doi)}</a>`
+          : p.isbn
+            ? `ISBN: ${escHtml(p.isbn)}`
+            : '';
+        const doiLine = identifier ? `<div class="pub-doi">${identifier}</div>` : '';
 
         html += `
           <div class="pub-item">
             <div>
               <div class="pub-title">${titleHtml}</div>
-              <div class="pub-authors">${escHtml(p.authors)}</div>
+              <div class="pub-authors">${authorsHtml}</div>
               <div class="pub-journal">${escHtml(venue)}</div>
+              ${doiLine}
             </div>
             <div class="pub-badges">${badges}</div>
           </div>`;
