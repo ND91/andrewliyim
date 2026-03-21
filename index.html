@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Andrew Y.F. Li Yim — Bioinformatician & Immuno-informatician</title>
+  <title>Andrew Y.F. Li Yim — Assistant Professor Immuno-Informatics</title>
   <meta name="description" content="Personal academic website of Andrew Y.F. Li Yim, Tenure-track Assistant Professor in Immuno-informatics at AmsterdamUMC.">
 
   <!-- Google Fonts: Cormorant Garamond (display) + DM Sans (body) -->
@@ -338,8 +338,8 @@
       padding: 0.2rem 0.55rem;
       border-radius: 100px;
     }
-    .badge-lead     { background: var(--teal-lt); color: var(--teal); }
-    .badge-senior   { background: #FFF3E0; color: #B45309; }
+    .badge-lead { background: var(--teal-lt); color: var(--teal); }
+    .badge-senior { background: #FFF3E0; color: #B45309; }
     .badge-featured { background: #F3F0FF; color: #5B21B6; }
     .badge-preprint { background: #FEF9C3; color: #92400E; }
     .pub-count {
@@ -492,13 +492,10 @@
 <header id="hero">
   <div class="hero-inner">
     <div>
-      <p class="hero-tag">AmsterdamUMC &middot; University of Amsterdam; &middot; OmiQuant </p>
+      <p class="hero-tag">AmsterdamUMC &middot; University of Amsterdam &middot; OmiQuant </p>
       <h1 class="hero-title">Andrew<br><em>Yung Fong<br><em>Li Yim</em></h1>
       <p class="hero-bio">
-        Tenure-track Assistant Professor in immuno-informatics, applying
-        computational and machine learning approaches to unravel immune-mediated
-        inflammatory diseases with a focus on translating multi-omics findings
-        into clinical application towards precision medicine. <br><br>
+        Tenure-track Assistant Professor in immuno-informatics, applying computational and machine learning approaches to unravel immune-mediated inflammatory diseases with a focus on translating multi-omics findings into clinical application towards precision medicine. <br><br>
         By identifying shared molecular pathways across immune-mediated inflammatory diseases - including inflammatory bowel disease, rheumatoid arthritis, and atopic dermatitis - I aim to identify conserved disease mechanisms that can be leveraged for drug repurposing, accelerating the translation of existing therapeutics into new indications.
       </p>
       <div class="hero-links">
@@ -925,16 +922,16 @@
           ? `<a ${doi_link} target="_blank" rel="noopener">${escHtml(p.title)}</a>`
           : escHtml(p.title);
 
-        const isSenior   = p.senior === true;
-        const isLead     = p.lead === true;
+        const isSenior = p.senior === true;
+        const isLead = p.lead === true;
         const isFeatured = p.featured;
         const isPreprint = /biorxiv|medrxiv|research square|preprint/i.test(p.journal);
 
         let badges = '';
         if (isFeatured && currentView === 'all') badges += '<span class="badge badge-featured">Selected</span>';
         if (isPreprint) badges += '<span class="badge badge-preprint">Preprint</span>';
-        if (isLead)     badges += '<span class="badge badge-lead">Lead</span>';
-        if (isSenior)   badges += '<span class="badge badge-senior">Senior</span>';
+        if (isLead) badges += '<span class="badge badge-lead">Lead</span>';
+        if (isSenior) badges += '<span class="badge badge-senior">Senior</span>';
 
         // Journal · Publisher · Month Year  (no volume, no pages)
         const month = p.month ? `${p.month} ${year}` : `${year}`;
@@ -945,9 +942,7 @@
 
         // Bold Andrew's name, strip * markers
         const authorsHtml = escHtml(p.authors)
-          .replace(/A\.Y\.F\. Li Yim\*\*/g, '<strong>A.Y.F. Li Yim</strong>')
-          .replace(/A\.Y\.F\. Li Yim\*/g,  '<strong>A.Y.F. Li Yim</strong>')
-          .replace(/A\.Y\.F\. Li Yim/g,    '<strong>A.Y.F. Li Yim</strong>');
+          .replace(/Li Yim, A\.Y\.F\./g, '<u>A.Y.F. Li Yim</u>');
 
         // DOI link, or ISBN for books/theses
         const identifier = p.doi
