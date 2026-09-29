@@ -1,5 +1,22 @@
 [
   {
+    "id": "Lezzerini2026",
+    "year": 2026,
+    "featured": false,
+    "lead": false,
+    "senior": false,
+    "title": "Gut bacterial lauroyl tryptamine reduces GPR183-associated inflammatory responses in human macrophages and T cells in vitro",
+    "authors": "Lezzerini, M.; Spek, V.; Fung, I.C.N.; Müller, J.M.; Kubelka, A.; Sieber, S.; de Jonge, W.J.; Li Yim, A.Y.F.; te Velde, A.A.; Zhang, J.",
+    "journal": "Frontiers in Immunology",
+    "publisher": "Frontiers Media S.A.",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "month": "September",
+    "doi": "",
+    "isbn": ""
+  },
+  {
     "id": "Ozcariz2026",
     "year": 2026,
     "featured": false,
@@ -12,8 +29,8 @@
     "volume": "",
     "number": "",
     "pages": "",
-    "month": "June",
-    "doi": "",
+    "month": "July",
+    "doi": "10.3389/fimmu.2026.1884480",
     "isbn": ""
   },
   {
