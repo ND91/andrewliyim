@@ -1,5 +1,22 @@
 [
   {
+    "id": "Fung2026b",
+    "year": 2026,
+    "featured": false,
+    "lead": false,
+    "senior": true,
+    "title": "Longitudinal multi-omics profiling of tofacitinib response identifies a pre-existing Janus kinase-tractable inflammatory state in ulcerative colitis",
+    "authors": "Fung, I.C.N.; de Jong, D.C.; Liu, K.; Li Yim, A.Y.F.; van Gennep, S.; Ramkisoen, R.K.; Clasquin, E.; de Jong, J.; Gecse, K.B.; Lowenberg, M.; Mookhoek, A.; de Jonge, W.J.; D'Haens, G.R.",
+    "journal": "medRxiv",
+    "publisher": "Cold Spring Harbor Laboratory",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "month": "October",
+    "doi": "",
+    "isbn": ""
+  },
+  {
     "id": "Lezzerini2026",
     "year": 2026,
     "featured": false,
@@ -85,7 +102,7 @@
     "isbn": ""
   },
   {
-    "id": "Fung2026",
+    "id": "Fung2026a",
     "year": 2026,
     "featured": true,
     "lead": false,
