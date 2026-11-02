@@ -340,12 +340,12 @@
     "isbn": ""
   },
   {
-    "id": "2024-layerspecific",
+    "id": "Sengul2024",
     "year": 2024,
     "featured": false,
     "lead": false,
     "title": "Layer-specific Transcriptional Signatures of Colon Anastomotic Healing and Leakage in Mice",
-    "authors": "Sengul, H., Bantavi, V., Yim, A.Y.L., Efferz, P., Schneiker, B., de Jonge, W.J., Wehner, S.",
+    "authors": "Sengul, H., Bantavi, V., Li Yim, A.Y.F., Efferz, P., Schneiker, B., de Jonge, W.J., Wehner, S.",
     "journal": "Research Square",
     "volume": "",
     "pages": "",
@@ -359,7 +359,7 @@
     "lead": true,
     "senior": false,
     "title": "Peripheral blood DNA methylation signatures predict response to vedolizumab and ustekinumab in adult patients with Crohns disease: The EPIC-CD study",
-    "authors": "Joustra, V.W.; A.Y.F Li Yim; Henneman, P.; Hageman, I.; de Waard, T.; Levin, E.; Noble, A.J.; Chapman, T.P.; Mol, F.; van Zon, S.; Lee, D.; McGregor, C.G.C.; Adams, A.T.; Satsangi, J.J.; de Jonge, W.J.; D'Haens, G.R.; EPIC-CD Consortium",
+    "authors": "Joustra, V.W.; A.Y.F. Li Yim; Henneman, P.; Hageman, I.; de Waard, T.; Levin, E.; Noble, A.J.; Chapman, T.P.; Mol, F.; van Zon, S.; Lee, D.; McGregor, C.G.C.; Adams, A.T.; Satsangi, J.J.; de Jonge, W.J.; D'Haens, G.R.; EPIC-CD Consortium",
     "journal": "medRxiv",
     "publisher": "Cold Spring Harbor Laboratory Press",
     "volume": "",
@@ -387,7 +387,7 @@
     "isbn": ""
   },
   {
-    "id": "VanHelsdingen2023",
+    "id": "Helsdingen2023",
     "year": 2023,
     "featured": false,
     "lead": false,
